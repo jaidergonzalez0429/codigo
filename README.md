@@ -1,7 +1,12 @@
-# Archivo: hola_mundo.py
+// Archivo: suma.js
 
-def saludo():
-    print("¡Hola, Mundo!")
+function sumar(a, b) {
+  return a + b;
+}
 
-if __name__ == "__main__":
-    saludo()
+const numero1 = 5;
+const numero2 = 3;
+
+const resultado = sumar(numero1, numero2);
+
+console.log(`El resultado de sumar ${numero1} y ${numero2} es: ${resultado}`);
